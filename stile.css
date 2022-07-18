@@ -1,9 +1,16 @@
 .background { font-family: 'Tiro Devanagari Sanskrit', serif;
-  margin:0px;
-  background-image: url(https://thedesignfiles.net/wp-content/uploads/2019/12/Emma-Currie-studio-visit-tdf-b-2200x963.jpg);
-  background-repeat;
+  background-image: url("immagini/sfondo.jpg");
+  margin: 0px;
+  width: 100%;
+  background-size: 100%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;}
+  background-position: center;
+  }
+
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
